@@ -1,0 +1,25 @@
+{
+  "name": "eth-transfer-bot",
+  "version": "1.0.0",
+  "description": "이더리움/EVM 호환 체인용 자동 송금 봇 — 본인 지갑에서 지정한 주소로 잔액을 자동 정산",
+  "main": "eth-transfer-bot.js",
+  "scripts": {
+    "start": "node eth-transfer-bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "evm",
+    "web3",
+    "blockchain",
+    "automation",
+    "transfer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "web3": "^1.10.4"
+  }
+}
